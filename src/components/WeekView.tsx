@@ -1,5 +1,5 @@
 import React from 'react';
-import { DayCard } from './DayCard';
+import DayCard from './components/DayCard';
 import { WeekData, PomodoroState } from '../types/types';
 import { calculateDayProgress, calculateTotalTime } from '../utils/taskUtils';
 
