@@ -5,7 +5,7 @@ type DayCardProps = {
   activities: string[];
 };
 
-const DayCard: React.FC<DayCardProps> = ({ day, activities }) => {
+export const DayCard: React.FC<DayCardProps> = ({ day, activities }) => {
   return (
     <div className="day-card">
       <h2>{day}</h2>
@@ -17,5 +17,3 @@ const DayCard: React.FC<DayCardProps> = ({ day, activities }) => {
     </div>
   );
 };
-
-export default DayCard;
